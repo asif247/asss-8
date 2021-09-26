@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+#topHeader {
+  width: 100%;
+  padding: 30px;
+  background-color: rgba(112, 112, 112, 0.2);
+  text-align: center;
+}
+
+
+#mainWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#cardWrapper {
+  width: 75%;
+  background-color: rgba(112, 112, 112, 0.2);
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#cardWrapper .singleCard {
+  width: 31%;
+  background-color: rgb(190, 190, 190);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: 0 1.16% 20px;
+  padding: 10px 10px 30px;
+}
+
+#cardWrapper .singleCard img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+#cardWrapper .singleCard button {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+#cardWrapper .singleCard button img{
+  width: 20px;
+  height:auto;
+  margin: 0;
+  display: inline-block;
+  margin-right: 10px;
+}
+#displayWrapper {
+  width: 20%;
+  background-color: rgba(112, 112, 112, 0.2);
+}
